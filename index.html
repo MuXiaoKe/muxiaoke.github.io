@@ -17,14 +17,15 @@
 
     <section class="main-content">
      
-      <h3>前端资源的一点好的规范</h3>  
+      <h3>1.前端资源的一点好的规范</h3>  
         <p>页面 js 存放在 ./static/js 下，公共的库放在 ./static/js/lib 下，公共库只压缩不合并，页面 js 压缩并合并。</p> 
 
         <p>页面 css 存放在 ./static/css 下，公共的css放在 ./static/css/common 下，公共 css 只压缩不合并，页面 css 压缩并合并。</p>
 
         <p>图片资源中小于3kb的图片以 base64 方式内联，图片放在 ./static/img 下。</p>
 
-
+      <h3>2.node 相关的实用主义事项</h3>
+        <p>npm自身的更新：复制AppData\Roaming\npm\node_modules\npm下的文件到你的NodeJS安装目录下的 \node_modules\npm 中，覆盖掉原来的全部文件</p> 
 
       <footer class="site-footer">
 
